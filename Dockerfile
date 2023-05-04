@@ -1,5 +1,5 @@
 
-FROM nginx
+FROM nginx:1-bullseye
 COPY static-html-directory /usr/share/nginx/html
 EXPOSE 80
 COPY nginx.conf /etc/nginx/nginx.conf
